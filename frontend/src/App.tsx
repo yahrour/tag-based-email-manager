@@ -56,7 +56,7 @@ export default function App() {
           onChange={handleSearchInput}
           className="max-w-xs"
         />
-        <div id="actionBarBtns" className="flex w-full max-w-xs gap-4">
+        <div id="actionBarBtns" className="flex w-full max-w-sm gap-4">
           <AddEmailDialog />
           <TagsList selectedTags={selectedTags} setSelectedTags={setSelectedTags} />
           <button

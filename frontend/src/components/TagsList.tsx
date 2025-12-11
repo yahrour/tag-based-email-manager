@@ -25,7 +25,7 @@ export default function TagsList({ selectedTags, setSelectedTags }: propsType) {
         onValuesChange={(values: string[]) => setSelectedTags(values)}
       >
         <MultiSelectTrigger className="w-full max-w-[400px]">
-          <MultiSelectValue overflowBehavior="cutoff" placeholder="Select Tags..." />
+          <MultiSelectValue overflowBehavior="cutoff" placeholder="Select Tags" />
         </MultiSelectTrigger>
         <MultiSelectContent>
           <MultiSelectGroup>
@@ -50,7 +50,7 @@ export default function TagsList({ selectedTags, setSelectedTags }: propsType) {
       onValuesChange={(values: string[]) => setSelectedTags(values)}
     >
       <MultiSelectTrigger className="w-full max-w-[400px]">
-        <MultiSelectValue overflowBehavior="cutoff" placeholder="Select Tags..." />
+        <MultiSelectValue overflowBehavior="cutoff" placeholder="Select Tags" />
       </MultiSelectTrigger>
       <MultiSelectContent>
         <MultiSelectGroup>
