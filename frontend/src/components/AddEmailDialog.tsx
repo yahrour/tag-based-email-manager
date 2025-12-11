@@ -59,7 +59,10 @@ export default function AddEmailDialog() {
       setNote("");
       setTags([]);
       setOpen(false);
-      mutate((key) => typeof key === "string" && (key.startsWith("/api/emails") || key.startsWith("/api/tags")));
+      mutate(
+        (key) =>
+          typeof key === "string" && (key.startsWith("/api/emails") || key.startsWith("/api/tags"))
+      );
     } else {
       toast.error("Email Not Created", toastErrorStyle);
     }
@@ -94,9 +97,9 @@ export default function AddEmailDialog() {
   };
 
   return (
-    <Dialog open={open} onOpenChange={setOpen} >
+    <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button variant="outline" aria-label="add email">
+        <Button variant="outline" aria-label="add email" className="w-[150px]">
           <Plus />
           Add
         </Button>

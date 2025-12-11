@@ -56,13 +56,13 @@ export default function App() {
           onChange={handleSearchInput}
           className="max-w-xs"
         />
-        <div id="actionBarBtns" className="flex w-full max-w-sm gap-4">
+        <div id="actionBarBtns" className="flex w-fit max-w-sm gap-4">
           <AddEmailDialog />
           <TagsList selectedTags={selectedTags} setSelectedTags={setSelectedTags} />
           <button
-            className="cursor-pointer"
             aria-label="show and hide emails"
             onClick={() => setHideEmails(!hideEmails)}
+            className="cursor-pointer"
           >
             {hideEmails ? <img src="/eye-off.svg" alt="eye" /> : <img src="/eye.svg" alt="eye" />}
           </button>
