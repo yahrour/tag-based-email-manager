@@ -1,20 +1,9 @@
-# Email Tagger
+# tag-based Email Manager
 
-A lightweight email management application with tag-based organization. Built with React + Vite frontend, Express backend, and PostgreSQL database.
+Tag-based email manager for quick organization and retrieval. Built with React + Vite frontend, Express backend, and PostgreSQL database.
 
-## Features
-
-- **Add and manage emails**
-- **Email tagging**
-- **Tag-based search**
-- **Infinite scroll**
-
-## Tech Stack
-
-- **Frontend**: React + Vite
-- **Backend**: Express.js
-- **Database**: PostgreSQL
-- **Containerization**: Docker Compose
+## Demo
+![demo](./demo.gif)
 
 ## Quick Start
 
