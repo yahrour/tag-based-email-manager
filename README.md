@@ -3,6 +3,7 @@
 Tag-based email manager for quick organization and retrieval. Built with React + Vite frontend, Express backend, and PostgreSQL database.
 
 ## Demo
+
 ![demo](./demo.gif)
 
 ## Quick Start
@@ -24,8 +25,8 @@ docker-compose up --build
 
 ### Access
 
-- **Frontend**: http://localhost:3000
-- **Backend API**: http://localhost:8080
+- **Frontend**: http://localhost:8080
+- **Backend API**: http://localhost:3333
 
 ## Project Structure
 

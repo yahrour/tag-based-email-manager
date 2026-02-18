@@ -17,6 +17,6 @@ WORKDIR /app
 COPY --from=build /app/node_modules ./node_modules
 COPY --from=build /app/.env ./.env
 COPY --from=build /app/dist ./dist
-EXPOSE 8080
-
+EXPOSE 3333
+USER node
 CMD [ "node", "/app/dist/server.js" ]
